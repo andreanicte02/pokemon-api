@@ -13,7 +13,10 @@ export default function Pokemon({ name, type, urlImg, abilities }) {
             flexDirection: 'column',
             height: '100vh'
 
-        }}>
+        }}
+        
+        className="caja"
+        >
             <h1>
                 {name}
             </h1>
